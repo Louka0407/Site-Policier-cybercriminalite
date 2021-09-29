@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="secteur d'activité et missions">
+    <meta name="keywords" content="secteur, missions, policier, cybercriminalité">
+    <meta name="author" content="Denis Louka, Fontaine Kiliann, Guindon Amaury, Hanin Colin, San Martin Clément">
+    <title>Missions, Carrière &#38; Salaire</title>
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/retour-haut.css">
+    <link rel="stylesheet" media="screen" href="css/pagination.css">
+    <link rel="stylesheet" media="screen" href="css/banniere.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+    <!-- Bannière de la page -->
+    <div class="header">
+      <a href="https://www.univ-reims.fr/" target="_blank"><img class="logo1" src="img/urca.png"></a>
+      <a href="https://www.iut-rcc.fr/" target="_blank"><img class="logo2" src="img/logo-iut.png"></a>
+      <h1 class="header-title">Policier en cybercriminalité</h1>
+    </div>
+
+    <!-- Menu de navigation-->
+    <div class="menu" id="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations-conditions.html">Formations &#38; Conditions de travail</a></li>
+        <li><a class="active" href="missions-carriere-salaire.html">Missions, Carrière &#38; Salaire</a></li>
+        <li><a href="competences-qualites.html">Compétences &#38; Qualités</a></li>
+        <li><a href="sources.html">Sources</a></li>
+      </ul>
+    </div>
+
+    <!-- Titre de la page -->
+    <div class="title">
+      <h1>Missions, Carrière &#38; Salaire</h1>
+    </div>
+
+    <!-- Contenu de la page -->
+    <div class="content">
+      <h2>Différentes missions</h2>
+      <p>
+         Un policier en cybercriminalité exerce de nombreuses missions allant du délit au crime. Mais la plupart des missions
+         menées concerne le hacking, l'escroquerie en ligne, le cyberharcèlement et, plus grave, des affaires de pédopornographie.<br>
+         Mais ce n'est pas tout, il arrive qu'un policier en cybercriminalité doive diriger des enquêtes judiciaires concernant
+         l'unvivers des <abbr title="Technologies de l'Information &#38; de la Communication">TIC</abbr>.<br>
+         Les policiers en cybercriminalité sont également chargés de la numérisation des pièces à conviction lors d'enquêtes.<br>
+      </p>
+      <p>
+        Toutes ces missions requierts de sérieuses compétences en informatique, c'est pourquoi ils doivent assurer ce que l'on appelle des &#34;veilles technologique&#34;, 
+        qui consistent à se tenir informé des nouvelles actualités, aussi bien au niveau des nouvelles technologies, qu'au niveau du monde de l'Internet.
+      </p>
+
+      <h2>Carrière</h2>
+      <p>
+        La plupart des policier en cybercriminalité le devienne car ce sont des gens qui possèdent de très bonnes connaissances en informatique.
+      </p>
+      <p>
+        Lorsque l'on est policier en cybercriminalité, on ne l'est pas jusqu'à la retraite, il y a une possiblité d'évolution de carrière.
+        En effet, un policier en cybercriminalité peut espérer s'orienter vers la branche de la sécurité publique ou bien travailler à la police aux frontières.
+        Mais il peut également rester dans son domaine en se spécialisant afin d'obtenir de nouvelles responsabilités et avoir une meilleure rémunération.
+      </p>
+
+      <h2>Le salaire</h2>
+      <p>
+        En terme de salaire, un policier en cybercriminalité touche aux alentours de 2000&euro; brut par mois, mais ce salaire n'est pas fixe,
+        il peut augmenter au fil de la carrière du policier et avec ses promotions.
+      </p>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="formations-conditions.html">&laquo;</a>
+      <a href="index.html">1</a>
+      <a href="formations-conditions.html">2</a>
+      <a href="missions-carriere-salaire.html" class="active">3</a>
+      <a href="competences-qualites.html">4</a>
+      <a href="sources.html">5</a>
+      <a href="competences-qualites.html">&raquo;</a>
+    </div>
+
+    <!-- Retour haut de page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script> 
+    //On appelle le bouton
+    var mybutton = document.getElementById("myBtn");
+
+    // Quand l'utilisateur commence à scroll, le bouton apparaît
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+        }
+    } 
+
+    // Quand l'utilisateur clique, ça remonte en haut de la page
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>

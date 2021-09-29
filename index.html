@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="vidéo de présentation du métier de policier en cybercriminalité">
+    <meta name="keywords" content="policier, cybercriminalité">
+    <meta name="author" content="Denis Louka, Fontaine Kiliann, Guindon Amaury, Hanin Colin, San Martin Clément">
+    <title>Accueil</title>
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/retour-haut.css">
+    <link rel="stylesheet" media="screen" href="css/pagination.css">
+    <link rel="stylesheet" media="screen" href="css/banniere.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+    <!-- Bannière de la page -->
+    <div class="header">
+      <a href="https://www.univ-reims.fr/" target="_blank"><img class="logo1" src="img/urca.png"></a>
+      <a href="https://www.iut-rcc.fr/" target="_blank"><img class="logo2" src="img/logo-iut.png"></a>
+      <h1 class="header-title">Policier en cybercriminalité</h1>
+    </div>
+
+    <!-- Menu de navigation -->
+    <div class="menu" id="navbar">
+      <ul>
+        <li><a class="active" href="index.html">Accueil</a></li>
+        <li><a href="formations-conditions.html">Formations &#38; Conditions de travail</a></li>
+        <li><a href="missions-carriere-salaire.html">Missions, Carrière &#38; Salaire</a></li>
+        <li><a href="competences-qualites.html">Compétences &#38; Qualités</a></li>
+        <li><a href="sources.html">Sources</a></li>
+      </ul>
+    </div>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+
+    <div class="content">
+      <p>
+        Dans le cadre de notre projet de fin de Semestre de notre
+        <abbr title="Diplôme Universitaire de Technologie">DUT</abbr>
+        Informatique, nous avons créé une vidéo pour le concours
+        <span><a href="https://www.jefilmelemetierquimeplait.tv/" target="_blank" class="liens">Je filme le métier qui me plait</a></span>, ainsi que ce site Web.
+        Nous vous souhaitons un bon visionnage !
+      </p>
+    </div>
+
+    <!-- Titre de la page -->
+    <div class="title">
+      <h1>Notre vidéo</h1>
+    </div>
+
+    <div class="video">
+      <video controls>
+        <source src="Policier en cybercriminalité.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="index.html" class="active">1</a>
+      <a href="formations-conditions.html">2</a>
+      <a href="missions-carriere-salaire.html">3</a>
+      <a href="competences-qualites.html">4</a>
+      <a href="sources.html">5</a>
+      <a href="formations-conditions.html">&raquo;</a>
+    </div>
+
+    <!-- Retour haut de page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script> 
+    //On appelle le bouton
+    var mybutton = document.getElementById("myBtn");
+
+    // Quand l'utilisateur commence à scroll, le bouton apparaît
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+        }
+    } 
+
+    // Quand l'utilisateur clique, ça remonte en haut de la page
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>

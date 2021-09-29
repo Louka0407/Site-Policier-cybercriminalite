@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="les compétences et les qualités requises">
+    <meta name="keywords" content="compétences, qualités, policier, cybercriminalté">
+    <meta name="author" content="Denis Louka, Fontaine Kiliann, Guindon Amaury, Hanin Colin, San Martin Clément">
+    <title>Compétences &#38; Qualités</title>
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/retour-haut.css">
+    <link rel="stylesheet" media="screen" href="css/pagination.css">
+    <link rel="stylesheet" media="screen" href="css/banniere.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+    <!-- Bannière de la page -->
+    <div class="header">
+      <a href="https://www.univ-reims.fr/" target="_blank"><img class="logo1" src="img/urca.png"></a>
+      <a href="https://www.iut-rcc.fr/" target="_blank"><img class="logo2" src="img/logo-iut.png"></a>
+      <h1 class="header-title">Policier en cybercriminalité</h1>
+    </div>
+
+    <!-- Menu de navigation -->
+    <div class="menu" id="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations-conditions.html">Formations &#38; Conditions de travail</a></li>
+        <li><a href="missions-carriere-salaire.html">Missions, Carrière &#38; Salaire</a></li>
+        <li><a class="active" href="competences-qualites.html">Compétences &#38; Qualités</a></li>
+        <li><a href="sources.html">Sources</a></li>
+      </ul>
+    </div>
+
+    <div class="title">
+      <h1>Compétences &#38; Qualités</h1>
+    </div>
+
+    <div class="content">
+      <h2>Les compétences attendues</h2>
+      <p>
+        Le policier en cybercriminalité est, de préférence, un officier de police, ce qui est mieux afin d'exécuter des commisions rogatoires.
+        De plus, il doit disposer des compétences informatiques nécessaires à la compréhension des modes opératoires des délits, infractions et crimes liés à l'univers d'Internet.
+      </p>
+
+      <h2>Les qualités requises</h2>
+      <p>
+        La principale qualité requise pour exercer ce métier, est bien entendu de posséder de solides et nombreuses connaissances dans le domaine de l'informatique et d'Internet.
+        Un bon policier en cybercriminalité doit, comme un polcier classique, bien connaitre le code pénal sur les lois en vigueur dans son pays, mais également sur le Web.
+        Mais ce n'est pas tout, il faut aussi être très solide mentalement et avoir de bonnes capacités d'analyse et de discernement.
+        Enfin, un policier en cybercriminalité est parfois amené à travailler en équipe et doit donc avoir un bon esprit coopératif.
+      </p>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="missions-carriere-salaire.html">&laquo;</a>
+      <a href="index.html">1</a>
+      <a href="formations-conditions.html">2</a>
+      <a href="missions-carriere-salaire.html">3</a>
+      <a href="competences-qualites.html" class="active">4</a>
+      <a href="sources.html">5</a>
+      <a href="sources.html">&raquo;</a>
+    </div>
+
+    <!-- Retour haut de page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script> 
+    //On appelle le bouton
+    var mybutton = document.getElementById("myBtn");
+
+    // Quand l'utilisateur commence à scroll, le bouton apparaît
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+        }
+    } 
+
+    // Quand l'utilisateur clique, ça remonte en haut de la page
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>

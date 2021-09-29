@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="sources">
+    <meta name="keywords" content="webographie, sources, policier, cybercriminalité">
+    <meta name="author" content="Denis Louka, Fontaine Kiliann, Guindon Amaury, Hanin Colin, San Martin Clément">
+    <title>Sources</title>
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/retour-haut.css">
+    <link rel="stylesheet" media="screen" href="css/pagination.css">
+    <link rel="stylesheet" media="screen" href="css/banniere.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+
+  <body>
+    <!-- Bannière de la page -->
+    <div class="header">
+      <a href="https://www.univ-reims.fr/" target="_blank"><img class="logo1" src="img/urca.png"></a>
+      <a href="https://www.iut-rcc.fr/" target="_blank"><img class="logo2" src="img/logo-iut.png"></a>
+      <h1 class="header-title">Policier en cybercriminalité</h1>
+    </div>
+
+    <!-- Menu de navigation -->
+    <div class="menu" id="navbar">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="formations-conditions.html">Formations &#38; Conditions de travail</a></li>
+        <li><a href="missions-carriere-salaire.html">Missions, Carrière &#38; Salaire</a></li>
+        <li><a href="competences-qualites.html">Compétences &#38; Qualités</a></li>
+        <li><a class="active" href="sources.html">Sources</a></li>
+      </ul>
+    </div>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+
+    <!-- Titre de la page -->
+    <div class="title">
+      <h1>Sources</h1>
+    </div>
+
+    <div>
+      <div id="top"></div>
+      <div class="content">
+        <h2>Webographie</h2>
+        <p>
+          <a href="http://etudiant.aujourdhui.fr/etudiant/metiers/fiche-metier/policier-investigateur-en-cybercriminalite.html" target="_blank" class="liens">http://etudiant.aujourdhui.fr/etudiant/metiers/fiche-metier/policier-investigateur-en-cybercriminalite.html</a>
+        </p>
+
+        <p>
+          <a href="https://www.cours-servais.fr/preparation-concours/gardien-de-la-paix/metier/policier-cybercriminalite.htm" target="_blank" class="liens">https://www.cours-servais.fr/preparation-concours/gardien-de-la-paix/metier/policier-cybercriminalite.htm</a>
+        </p>
+
+        <p>
+          <a href="https://www.orientation.com/metiers/cyber-policier" target="_blank" class="liens">https://www.orientation.com/metiers/cyber-policier</a>
+        </p>
+
+        <p>
+          <a href="https://www.intercariforef.org/formations/certification-62721.html" target="_blank" class="liens">https://www.intercariforef.org/formations/certification-62721.html</a>
+        </p>
+
+        <p>
+          <a href="https://www.orientation.com/metiers/cyber-policier" target="_blank" class="liens">https://www.orientation.com/metiers/cyber-policier</a>
+        </p>
+
+        <h2>Rôle des différents membre du groupe</h2>
+
+        <div class="border-bottom">
+          <h3>Louka Denis</h3>
+          <p>
+            Partie Recherche : Formations
+          </p>
+          <p>
+            Partie Web : Menu (liens entre les pages/Design du menu/placement du
+            menu/ajouter un bouton permettant de remonter en haut de la page qui
+            est fixé en bas à droite/gauche de l'écran) + les noms des parties
+            dans l’URL + link des sources (petit numéro en exposant) + banderole
+            en haut
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <h3>Kiliann Fontaine</h3>
+          <p>
+            Partie Recherche : Conditions de travail & Salaire
+          </p>
+          <p>
+            Partie Web : Créer la page HTML de chaques pages
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <h3>Amaury Guindon</h3>
+          <p>
+            Partie Recherche : Missions
+          </p>
+          <p>
+            Partie Web : Créer la page HTML de chaques pages
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <h3>Colin Hanin</h3>
+          <p>
+            Partie Recherche : Carrière
+          </p>
+          <p>
+            Partie Web : Placement des catégories dans la page (ex: logo, texte,
+            menu ….) + intégration des images, vidéos.
+          </p>
+        </div>
+
+        <div class="border-bottom">
+          <h3>Clément San Martin</h3>
+          <p>
+            Partie Recherche : Compétences & Qualités
+          </p>
+          <p>
+            Partie Web : Menu (liens entre les pages/Design du menu/placement du
+            menu/ajouter un bouton permettant de remonter en haut de la page qui
+            est fixé en bas à droite/gauche de l'écran) + les noms des parties
+            dans l’URL + link des sources (petit numéro en exposant) + banderole
+            en haut
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination">
+      <a href="competences-qualites.html">&laquo;</a>
+      <a href="index.html">1</a>
+      <a href="formations-conditions.html">2</a>
+      <a href="missions-carriere-salaire.html">3</a>
+      <a href="competences-qualites.html">4</a>
+      <a href="sources.html" class="active">5</a>
+    </div>
+
+    <!-- Retour haut de page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script> 
+    //On appelle le bouton
+    var mybutton = document.getElementById("myBtn");
+
+    // Quand l'utilisateur commence à scroll, le bouton apparaît
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+        }
+    } 
+
+    // Quand l'utilisateur clique, ça remonte en haut de la page
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>

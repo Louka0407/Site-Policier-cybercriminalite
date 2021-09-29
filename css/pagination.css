@@ -1,0 +1,24 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+
+.pagination {
+  display: inline-block;
+  margin-left: 42%;
+}
+
+.pagination a {
+  color: white;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #2461ba;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
